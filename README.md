@@ -16,7 +16,7 @@ To use AdamBF, you need PyTorch installed. You can install PyTorch via pip:
 pip install torch
 ```
 
-The AdamBF implementation is provided in a single Python file (`adam_bf.py`). You can include it in your project by copying the file or integrating the code directly.
+The AdamBF implementation is provided in a single Python file (`adambf/main.py`). You can include it in your project by copying the file or integrating the code directly.
 
 ## Usage
 AdamBF can be used like any PyTorch optimizer. Below is an example of how to integrate it into a training loop.
@@ -25,7 +25,7 @@ AdamBF can be used like any PyTorch optimizer. Below is an example of how to int
 ```python
 import torch
 import torch.nn as nn
-from adam_bf import AdamBF
+from adambf.main import AdamBF
 
 # Define a simple model
 class SimpleModel(nn.Module):
